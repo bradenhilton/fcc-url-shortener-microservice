@@ -81,7 +81,7 @@ const addUrl = (req, res) => {
                   return;
                 }
                 
-                res.json({ original_url: url, short_url: shortUrl })
+                res.json({ original_url: url, short_url: shortUrl });
               });
             }
           });
